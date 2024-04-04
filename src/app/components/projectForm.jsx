@@ -6,7 +6,7 @@ import Link from "next/link";
 function ProjectForm({ item }) {
   return (
     <Link
-      class="p-2 max-w-lg border border-indigo-300 rounded-2xl hover:shadow-xl hover:shadow-indigo-400 flex flex-col items-center font-mono"
+      class="p-2 max-w-lg border border-indigo-300 rounded-2xl hover:shadow-xl hover:shadow-indigo-400 flex flex-col items-center font-sc"
       href={`/project/${item.id}`}
     >
       <Image

@@ -24,22 +24,22 @@ function About() {
       transition={{ duration: 1 }}
     >
       {/* Container */}
-      <div className="h-full overflow-scroll lg:flex" ref={containerRef}>
+      <div className="h-full overflow-y-scroll lg:flex" ref={containerRef}>
         {/* Text Container */}
         <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 flex flex-col gap-24 md:gap-32 lg:gap-48 xl:gap-64 lg:w-2/3 lg:pr-0 xl:1/2">
           {/* Biography container */}
           <div className="flex flex-col gap-12 justify-center">
             {/* Biography Title */}
-            <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
+            <h1 className="font-bold text-2xl font-pr">BIOGRAPHY</h1>
             {/* Biography Desc */}
-            <p className="text-lg">
+            <p className="text-lg font-sc">
               Hello! I am a dedicated and passionate IT professional with a
               degree in Information Technology from 2019. With a total of 5
               years of experience in the IT industry, I have honed my skills in
               both technical support and web development.
             </p>
             {/* Biography Quote */}
-            <span className="italic">
+            <span className="italic font-sc">
               I am always ready to take on new challenges and contribute to
               innovative projects.
             </span>
@@ -90,13 +90,13 @@ function About() {
             </motion.svg>
           </div>
           {/* Skills container */}
-          <div className="flex flex-col gap-12 justify-center" ref={skillRef}>
+          <div className="flex flex-col gap-12 justify-center " ref={skillRef}>
             {/* Skill Title */}
             <motion.h1
               initial={{ x: "-300px" }}
               animate={isSkillRefInView ? { x: 0 } : {}}
               transition={{ delay: 0.2 }}
-              className="font-bold text-2xl"
+              className="font-bold text-2xl font-pr"
             >
               Skills
             </motion.h1>
@@ -104,7 +104,7 @@ function About() {
             <motion.div
               initial={{ x: "-300px" }}
               animate={isSkillRefInView ? { x: 0 } : {}}
-              className="flex gap-4 flex-wrap"
+              className="flex gap-4 flex-wrap font-sc"
             >
               <div className="rounded p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black ">
                 Javascript
@@ -182,7 +182,7 @@ function About() {
               initial={{ x: "-300px" }}
               animate={isExpRefInView ? { x: 0 } : {}}
               transition={{ delay: 0.2 }}
-              className="font-bold text-2xl"
+              className="font-bold text-2xl font-pr"
             >
               Experience
             </motion.h1>
@@ -194,11 +194,11 @@ function About() {
               className=""
             >
               {/* Experience List Item */}
-              <div className="flex justify-between h-48">
+              <div className="flex justify-between h-48 font-sc ">
                 {/* Left */}
                 <div className=" w-1/3">
                   {/* Job Title */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                  <div className="bg-white p-3 font-semibold  rounded-b-lg rounded-s-lg">
                     IT Support Engineer
                   </div>
                   {/* Job Desc */}
@@ -246,10 +246,10 @@ function About() {
                   </div>
                 </div>
                 {/* Right */}
-                <div className="w-1/3"></div>
+                <div className="w-1/3 "></div>
               </div>
               {/* Experience List Item */}
-              <div className="flex justify-between h-48">
+              <div className="flex justify-between h-48 ">
                 {/* Left */}
                 <div className="w-1/3"></div>
                 {/* Center */}
@@ -261,7 +261,7 @@ function About() {
                   </div>
                 </div>
                 {/* Right */}
-                <div className="w-1/3">
+                <div className="w-1/3 ">
                   {/* Job Title */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
                     Front-End Developer
@@ -298,6 +298,7 @@ function About() {
                 </div>
               </div>
             </motion.div>
+            <div className="h-4"></div>
           </div>
         </div>
         {/* SVG Container */}

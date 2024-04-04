@@ -19,26 +19,26 @@ const Homepage = () => {
         {/* Text container */}
         <div className="h-1/2 flex flex-col lg:h-full lg:w-1/2 gap-8 items-center justify-center">
           {/* Title */}
-          <h1 className="text-4xl md:text-6xl font-bold">
+          <h1 className="text-4xl md:text-6xl font-bold font-pr">
             Passionate and Creative front-end developer
           </h1>
           {/* Desc */}
-          <p className="md:text-xl">
+          <p className="md:text-xl font-sc">
             Welcome to my personal website! I am a web developer and technical
             support engineer.I look forward to supporting and helping you
             achieve your technical goals
           </p>
           {/* Buttons */}
-          <div className="flex gap-4 w-full">
+          <div className="flex gap-6 w-full ">
             <Link
               href="/portfolio"
-              className="p-4 rounded-lg ring-1 ring-black bg-black text-white "
+              className=" font-sc text-2xl border border-b-1 border-b-black font-bold hover:text-gray-500 hover:border-b-gray-500 "
             >
               View My Work
             </Link>
             <Link
               href="/contact"
-              className="p-4 rounded-lg ring-1 ring-black "
+              className=" font-sc text-2xl border border-b-1 border-b-black font-bold hover:text-gray-500 hover:border-b-gray-500"
             >
               Contact Me
             </Link>

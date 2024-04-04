@@ -42,7 +42,7 @@ function Contact() {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="flex items-center justify-center  p-12">
+      <div className="flex items-center justify-center  p-12 font-sc">
         <div className="mx-auto w-full max-w-[550px]">
           <form
             action="https://formbold.com/s/FORM_ID"
@@ -51,10 +51,7 @@ function Contact() {
             ref={form}
           >
             <div className="mb-5">
-              <label
-                for="name"
-                className="mb-3 block text-base font-medium text-[#07074D]"
-              >
+              <label for="name" className="mb-3 block text-base font-medium ">
                 Full Name
               </label>
               <input
@@ -66,10 +63,7 @@ function Contact() {
               />
             </div>
             <div className="mb-5">
-              <label
-                for="email"
-                className="mb-3 block text-base font-medium text-[#07074D]"
-              >
+              <label for="email" className="mb-3 block text-base font-medium ">
                 Email Address
               </label>
               <input
@@ -84,7 +78,7 @@ function Contact() {
             <div className="mb-5">
               <label
                 for="message"
-                className="mb-3 block text-base font-medium text-[#07074D]"
+                className="mb-3 block text-base font-medium "
               >
                 Message
               </label>
@@ -97,7 +91,7 @@ function Contact() {
               ></textarea>
             </div>
             <div>
-              <button className="hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-base font-semibold text-white outline-none">
+              <button className="font-sc text-2xl border border-b-1 border-b-black font-bold hover:text-gray-500 hover:border-b-gray-500">
                 Submit
               </button>
               {success && (

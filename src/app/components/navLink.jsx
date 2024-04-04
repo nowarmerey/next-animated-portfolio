@@ -9,7 +9,7 @@ function NavLink({ link }) {
 
   return (
     <Link
-      className={`rounded p-1 ${
+      className={`rounded p-1 font-pr  ${
         pathName === link.url && "bg-black text-white"
       }`}
       href={link.url}

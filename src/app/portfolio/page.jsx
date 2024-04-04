@@ -13,10 +13,10 @@ function Projects() {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full overflow-scroll">
+      <div className="h-full overflow-scroll no-scrollbar">
         <div className="container my-24 mx-auto md:px-6 ">
           <section className="mb-32 text-center">
-            <h2 className="mb-12 pb-4 text-center text-6xl font-bold font-mono">
+            <h2 className="mb-12 pb-4 text-center text-6xl font-bold font-pr">
               My Works
             </h2>
 
@@ -27,8 +27,8 @@ function Projects() {
             </div>
           </section>
         </div>
-        <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
-          <h1 className="text-8xl">Do you have a project?</h1>
+        <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center ">
+          <h1 className="text-8xl font-pr">Do you have a project?</h1>
           <div className="relative">
             <motion.svg
               animate={{ rotate: 360 }}
@@ -43,14 +43,14 @@ function Projects() {
                 />
               </defs>
               <text fill="#000">
-                <textPath xlinkHref="#circlePath" className="text-xl">
+                <textPath xlinkHref="#circlePath" className="text-xl font-sc">
                   Front-end Developer and IT Support
                 </textPath>
               </text>
             </motion.svg>
             <Link
               href="/contact"
-              className="w-16 h-16 md:w-28 md:h-28 absolute top-0 left-0 right-0 bottom-0 m-auto bg-black text-white rounded-full flex items-center justify-center"
+              className="w-16 h-16 md:w-28 md:h-28 absolute top-0 left-0 right-0 bottom-0 m-auto bg-black text-white rounded-full flex items-center justify-center font-sc"
             >
               Hire Me
             </Link>

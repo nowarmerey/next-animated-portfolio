@@ -84,34 +84,7 @@ function Navbar() {
           </span>
         </Link>
       </div>
-      {/* Social */}
-      <div className="hidden md:flex justify-center  gap-4 w-1/3">
-        <Link cl href="https://github.com/nowarmerey" target="_blank">
-          <Image src="/github.png" alt="" width={24} height={24} />
-        </Link>
-
-        <Link
-          cl
-          href="https://www.instagram.com/nowarmeree?igsh=NndhNTY5cnA2Mno0"
-          target="_blank"
-        >
-          <Image src="/instagram.png" alt="" width={24} height={24} />
-        </Link>
-        <Link
-          cl
-          href="https://www.facebook.com/share/2GGrQC5nETwcFZjm/?mibextid=qi2Omg"
-          target="_blank"
-        >
-          <Image src="/facebook.png" alt="" width={24} height={24} />
-        </Link>
-        <Link
-          cl
-          href="https://www.linkedin.com/in/nawar-meree-5b40b116b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-          target="_blank"
-        >
-          <Image src="/linkedin.png" alt="" width={24} height={24} />
-        </Link>
-      </div>
+      
 
       {/* Responsive menu */}
       <div className="md:hidden">
