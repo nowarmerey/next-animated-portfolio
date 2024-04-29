@@ -63,7 +63,7 @@ const projectDetails = [
       "‣ Nextjs and React: The frontend of the website is built using Next.js and React, offering a fast, SEO-friendly, and user-centric experience.‣ Strapi: Strapi, a headless CMS, is used for backend management, allowing for efficient handling of product information, user data, and other website content.‣ Stripe: Stripe is integrated for secure, reliable, and seamless payment processing.",
     images: [1],
     video: true,
-    demo: "/404",
+    demo: "/p404",
     github: "https://github.com/nowarmerey/netlifyecommerce",
   },
   {
@@ -76,7 +76,7 @@ const projectDetails = [
     technicalDetails:
       "‣ Java: The application is built using Java, demonstrating efficient use of Object-Oriented Programming (OOP) principles and Java's robust library of classes for building interactive user interfaces.‣ Database Integration: The application is integrated with a database for persistent storage of inventory and sales data.",
     images: [1, 2, 3, 4, 5],
-    demo: "/404",
+    demo: "/p404",
     github: "https://github.com/nowarmerey/JavaCommercialApp",
   },
   {
@@ -89,7 +89,7 @@ const projectDetails = [
     technicalDetails:
       "‣ JavaFX: The application is built using JavaFX, a software platform for creating and delivering desktop applications, JavaFX allows for a seamless user experience with a rich set of features.‣ Database Integration: The application is integrated with a database for persistent storage of work orders, inventory data, and other workshop information.",
     images: [1, 2, 3, 4, 5],
-    demo: "/404",
+    demo: "/p404",
     github: "https://github.com/nowarmerey/javaCustodyApp",
   },
   {
@@ -115,8 +115,8 @@ const projectDetails = [
     technicalDetails:
       "‣ Next.js: The website is built using Next.js, a React-based framework that offers server-side rendering and generates static websites for React-based web applications.‣ Framer Motion: Framer Motion, a production-ready motion library for React, is used to create delightful animations and interactions throughout the website.‣ Tailwind CSS: Tailwind CSS, a utility-first CSS framework, is used for styling the website. It allows for custom designs without leaving the HTML.",
     images: [1],
-    demo: "/404",
-    github: "/404",
+    demo: "/p404",
+    github: "/p404",
   },
   {
     id: 10,
