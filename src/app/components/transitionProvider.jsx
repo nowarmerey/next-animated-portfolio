@@ -37,7 +37,7 @@ function TransitionProvider({ children }) {
         <div className="h-24">
           <Navbar />
         </div>
-        <div className="h-[calc(100vh-154px)]">{children}</div>
+        <div className="h-[calc(100vh-156px)]">{children}</div>
         <MyFooter />
       </div>
     </AnimatePresence>

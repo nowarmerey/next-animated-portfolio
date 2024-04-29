@@ -118,6 +118,19 @@ const projectDetails = [
     demo: "/404",
     github: "/404",
   },
+  {
+    id: 10,
+    type: "Web App",
+    title: "ReactChatApp",
+    desc: "ReactChatApp is a dynamic and interactive chat application built using React.js and Firebase. The application provides a modern, user-friendly interface that allows users to communicate in real-time.",
+    keyFeatures:
+      "‣ Real-Time Messaging: The application allows users to send and receive messages in real-time, providing a seamless communication experience.‣ Account Creation: Users can create accounts using their email, allowing them to have personalized profiles and chat histories.‣ Photo Sharing: Users can share photos within their conversations, enhancing the communication experience.‣ User Blocking**: The application includes a feature that allows users to block other users, ensuring a safe and respectful communication environment.",
+    technicalDetails:
+      "‣ React js: The application is built using Reactjs, a popular JavaScript library for building user interfaces, The use of React allows for a modular approach, with each chat being a separate component.‣ Firebase: Firebase, a platform developed by Google for creating mobile and web applications, is used for backend services such as authentication and real-time database.This project demonstrates my ability to create a modern, responsive, and interactive chat application using Reactjs and Firebase, It highlights my understanding of these technologies, my ability to write clean and efficient code, and my commitment to creating user-friendly experiences.",
+    images: [1, 2, 3, 4, 5, 6],
+    demo: "https://reactfirebasechats.netlify.app/",
+    github: "https://github.com/nowarmerey/react-firebase-chat",
+  },
 ];
 
 export default projectDetails;
