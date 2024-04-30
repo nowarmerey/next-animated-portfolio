@@ -24,6 +24,20 @@ function MyFooter() {
         <Link cl href="https://github.com/nowarmerey" target="_blank">
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
+        <Link
+          cl
+          href="https://www.linkedin.com/in/nawar-meree-5b40b116b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          target="_blank"
+        >
+          <Image src="/linkedin.png" alt="" width={24} height={24} />
+        </Link>
+        <Link
+          cl
+          href="https://khamsat.com/user/%D9%86%D9%88%D8%A7%D8%B1-%D9%85%D8%B1%D8%B9%D9%8A"
+          target="_blank"
+        >
+          <Image src="/khamsat.png" alt="" width={24} height={24} />
+        </Link>
 
         <Link
           cl
@@ -38,13 +52,6 @@ function MyFooter() {
           target="_blank"
         >
           <Image src="/facebook.png" alt="" width={24} height={24} />
-        </Link>
-        <Link
-          cl
-          href="https://www.linkedin.com/in/nawar-meree-5b40b116b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-          target="_blank"
-        >
-          <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
       </div>
     </footer>
