@@ -26,7 +26,7 @@ function MyFooter() {
         </Link>
         <Link
           cl
-          href="www.linkedin.com/in/nawar-meree-036491164"
+          href="https://linkedin.com/in/nawar-meree-036491164"
           target="_blank"
         >
           <Image src="/linkedin.png" alt="" width={24} height={24} />
