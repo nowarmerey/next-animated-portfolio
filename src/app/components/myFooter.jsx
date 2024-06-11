@@ -13,7 +13,7 @@ function MyFooter() {
         <div className="max-sm:hidden">Download Resume:</div>
         <Link
           cl
-          href="https://drive.usercontent.google.com/u/1/uc?id=1y81VrZ3GqyQISg5FfoVAq_zIPb8kVFaz&export=download"
+          href="https://drive.google.com/file/d/1TNhSbnlR1NM2WXwfgAsOS8gCW0tDXVOh/view?usp=drive_link"
           target="_blank"
         >
           <Image src="/pdf.png" alt="" width={24} height={24} />
