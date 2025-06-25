@@ -234,7 +234,7 @@ function About() {
                   </div>
                   {/* Job Company */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    STG-E Co.
+                    SADA Co.
                   </div>
                 </div>
                 {/* Center */}
@@ -293,7 +293,7 @@ function About() {
                   </div>
                   {/* Job Company */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Syriatel
+                    TechNova
                   </div>
                 </div>
               </div>
